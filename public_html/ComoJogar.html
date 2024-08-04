@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Pong Game - Por: Rafael Alberto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="ComoJogar.css"/>
+       
+        <!-- JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+        <!-- MATERIALIZE -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        
+        <!-- Icones Google 
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    </head>
+    <body>
+
+
+
+        <nav class="green lighten-4">
+            <div class="container">
+                <div class="nav-wrapper green lighten-4">
+                    <a href="index.html" class="brand-logo grey-text text-darken-4">Simple Pong</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down green lighten-4">
+                        <li><a target="_blank" href="Sobre.html" class="grey-text text-darken-4">Sobre</a></li>
+                        <li><a target="_blank" href="ComoJogar.html" class="grey-text text-darken-4">Como Jogar</a></li>
+                    </ul>
+                </div>
+            </div>    
+        </nav>
+
+        
+        
+        <main>
+            <div class="container">
+                <div id="auxiliar">
+                    <div id="escrita">
+                        <p id="titulo"><b>Objetivo:</b></p>
+                        <p class="flow-text" id="texto">
+                            O objetivo do jogo Pong é simples: cada jogador controla 
+                            uma raquete e tenta rebater a bola para o campo do 
+                            adversário. A pontuação é feita quando um jogador não 
+                            consegue rebater a bola, permitindo que ela passe pela 
+                            raquete. O jogo continua até que um dos jogadores 
+                            alcance o número de pontos necessário para vencer.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="auxiliar">
+                    <div id="escrita">
+                        <p id="titulo"><b>Controles Player 1:</b></p>
+                        <p class="flow-text" id="texto">
+                            Para mover o Player 1 no jogo Pong, utilize as teclas 
+                            'W' e 'S' do teclado. Pressione 'W' para mover a raquete 
+                            do Player 1 para cima e 'S' para movê-la para baixo. 
+                            Isso permite que o jogador posicione a raquete de forma 
+                            a rebater a bola.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="auxiliar">
+                    <div id="escrita">
+                        <p id="titulo"><b>Controles Player 2:</b></p>
+                        <p class="flow-text" id="texto">
+                            Para mover o Player 2 no jogo Pong, utilize as teclas 
+                            direcionais do teclado. Pressione a seta para cima para 
+                            mover a raquete do Player 2 para cima e a seta para baixo 
+                            para movê-la para baixo. Dessa forma, o jogador pode 
+                            ajustar a posição da raquete e tentar rebater a bola.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </main>
+        
+        
+        
+        <footer class="page-footer green lighten-4 z-depth-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                      <h5 class="grey-text text-darken-4">PONG GAME!</h5>
+                      <p class="grey-text text-darken-4">Divirta-se</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                      <h5 class="grey-text text-darken-4">Links</h5>
+                      <ul>
+                          <li><a class="grey-text text-darken-4" target="_blank" href="Sobre.html">Sobre</a></li>
+                          <li><a class="grey-text text-darken-4" target="_blank" href="ComoJogar.html">Como Jogar</a></li>
+
+                      </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container grey-text text-darken-4">
+                    © 2024 Rafael Alberto
+                    <a class="grey-text text-darken-4 right" href="#!">Pong!</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <!-- SCRIPT MATERIALIZE SIDE-BAR (mudança de classe)-->
+        <script> $(document).ready(function(){$(".button-collapse").sideNav();});</script>
+        
+    </body>
+</html>

@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 10 de mai. de 2024, 16:14:08
+    Author     : r_alb
+*/
+
+
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+ }
+
+ main {
+    flex: 1 0 auto;
+ }
+
+ #auxiliar {
+    padding: 38px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ #escrita {
+    border: 2px solid black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    border: solid 2px black;
+    height: 350px;
+    width: 900px;
+    background-color: #e8e8e8
+ }
+
+ #texto {
+     margin: 44px;
+     text-align: justify;
+ }
